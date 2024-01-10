@@ -1,0 +1,424 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hello", "Hi", "Hey", "Greetings"],
+        "responses": ["Hello! How can I assist you?", "Hi there! How can I help?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Goodbye", "Bye", "See you later", "Farewell"],
+        "responses": ["Goodbye! Have a great day.", "See you later!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thank you", "Thanks a lot", "Appreciate it"],
+        "responses": ["You're welcome!", "No problem, happy to help!"]
+      },
+      {
+        "tag": "age",
+        "patterns": ["How old are you?", "What's your age?", "Age"],
+        "responses": ["I'm just a computer program and don't have an age."]
+      },
+      {
+        "tag": "weather",
+        "patterns": ["What's the weather like today?", "Tell me about the weather", "Weather forecast"],
+        "responses": ["I'm sorry, I don't have real-time weather information."]
+      },
+      {
+        "tag": "joke",
+        "patterns": ["Tell me a joke", "Share a joke", "Joke"],
+        "responses": ["Why don't scientists trust atoms? Because they make up everything!"]
+      },
+      {
+        "tag": "name",
+        "patterns": ["What's your name?", "Who are you?", "Name"],
+        "responses": ["I'm a chatbot. You can call me ChatGPT."]
+      },
+      {
+        "tag": "purpose",
+        "patterns": ["What is your purpose?", "Why were you created?", "Purpose"],
+        "responses": ["I'm here to assist and provide information to the best of my abilities."]
+      },
+      {
+        "tag": "depression_intro",
+        "patterns": ["What is depression?", "Tell me about depression", "Define depression"],
+        "responses": ["Depression is a mental health disorder characterized by persistent sadness and a lack of interest or pleasure in activities. If you or someone you know is struggling, consider reaching out to a mental health professional."]
+      },
+      {
+        "tag": "symptoms",
+        "patterns": ["What are the symptoms of depression?", "Signs of depression", "Depression symptoms"],
+        "responses": ["Common symptoms of depression include persistent sadness, loss of interest or pleasure, changes in sleep and appetite, fatigue, feelings of worthlessness, and difficulty concentrating."]
+      },
+      {
+        "tag": "seek_help",
+        "patterns": ["How to seek help for depression?", "Get help for depression", "Depression support"],
+        "responses": ["If you or someone you know is experiencing symptoms of depression, it's important to reach out to a mental health professional, such as a therapist or counselor. You can also contact a helpline or talk to friends and family for support."]
+      },
+      {
+        "tag": "self_care",
+        "patterns": ["Self-care for depression", "Managing depression", "Coping strategies"],
+        "responses": ["Self-care is essential for managing depression. This may include regular exercise, getting enough sleep, maintaining a healthy diet, and engaging in activities you enjoy. However, professional guidance is crucial for personalized advice."]
+      },
+      {
+        "tag": "supportive_words",
+        "patterns": ["I feel depressed", "I'm struggling with depression", "Help me"],
+        "responses": ["I'm really sorry to hear that you're feeling this way. It's important to talk to someone who can provide the support that you need. Reach out to friends, family, or a mental health professional."]
+      },
+      {
+        "tag": "encouragement",
+        "patterns": ["Give me some encouragement", "Positive words", "I need motivation"],
+        "responses": ["Remember that you are not alone, and it's okay to ask for help. Taking small steps toward self-care and seeking support can make a positive difference. You have the strength to overcome challenges."]
+      },
+      {
+        "tag": "music",
+        "patterns": ["Recommend some music", "Favorite music genre", "Music"],
+        "responses": ["I don't have personal preferences, but I can recommend some popular genres. What are you in the mood for?"]
+      }, {
+        "tag": "motivation",
+        "patterns": ["I need motivation", "Motivate me", "Give me a boost"],
+        "responses": ["You have the power to overcome any challenge. Take one step at a time, and remember that progress, no matter how small, is still progress. You've got this!"]
+      },
+      {
+        "tag": "stress_management",
+        "patterns": ["How to manage stress?", "Stress relief tips", "Dealing with stress"],
+        "responses": ["Managing stress is important. Consider deep breathing exercises, meditation, or taking breaks to relax. Connecting with friends and engaging in activities you enjoy can also help."]
+      },
+      {
+        "tag": "goal_setting",
+        "patterns": ["How to set goals?", "Setting life goals", "Goal planning"],
+        "responses": ["Setting SMART goals (Specific, Measurable, Achievable, Relevant, Time-bound) can provide direction and motivation. Break larger goals into smaller tasks to make progress more achievable."]
+      },
+      {
+        "tag": "mindfulness",
+        "patterns": ["What is mindfulness?", "Mindfulness practices", "Mindful living"],
+        "responses": ["Mindfulness involves being present in the moment without judgment. Practices like meditation, deep breathing, and mindful observation can help reduce stress and improve overall well-being."]
+      },
+      {
+        "tag": "exercise",
+        "patterns": ["Benefits of exercise", "Exercise for mental health", "Physical activity"],
+        "responses": ["Regular exercise not only benefits physical health but also contributes to improved mood and mental well-being. Find activities you enjoy, whether it's walking, jogging, or dancing."]
+      },
+      {
+        "tag": "self_discovery",
+        "patterns": ["How to discover myself?", "Self-exploration", "Know thyself"],
+        "responses": ["Self-discovery is a lifelong journey. Reflect on your values, interests, and passions. Consider journaling, talking to others, or seeking guidance from a mentor to better understand yourself."]
+      },
+      {
+        "tag": "gratitude",
+        "patterns": ["Practice gratitude", "Why is gratitude important?", "Grateful mindset"],
+        "responses": ["Practicing gratitude involves focusing on the positive aspects of life. Regularly express thanks for the small joys, people, and experiences. It can enhance overall well-being and perspective."]
+      },
+      {
+        "tag": "hobbies",
+        "patterns": ["Discovering hobbies", "Hobby ideas", "What hobby should I try?"],
+        "responses": ["Exploring hobbies can be a great way to relax and find joy. Consider trying activities like painting, cooking, reading, or playing a musical instrument to discover what brings you fulfillment."]
+      }, 
+      {
+        "tag": "positive_affirmations",
+        "patterns": ["Give me positive affirmations", "Affirmations for positivity", "Positive thoughts"],
+        "responses": ["You are capable of achieving great things. Your efforts make a difference, and you are deserving of success and happiness."]
+      },
+      {
+        "tag": "time_management",
+        "patterns": ["Effective time management", "Time-saving tips", "Organize my schedule"],
+        "responses": ["Prioritize tasks, set realistic deadlines, and take breaks to maintain productivity. Time management is crucial for achieving goals."]
+      },
+      {
+        "tag": "learning_new_skills",
+        "patterns": ["How to learn new skills?", "Skill development tips", "Acquire new talents"],
+        "responses": ["Continuous learning is valuable. Break down skills into smaller steps, use online resources, and practice consistently to enhance your abilities."]
+      },
+      {
+        "tag": "social_connection",
+        "patterns": ["Building social connections", "Making friends", "Connect with others"],
+        "responses": ["Nurturing social connections is important for well-being. Engage in activities you enjoy, join clubs or groups, and reach out to others to build meaningful relationships."]
+      },
+      {
+        "tag": "overcoming_challenges",
+        "patterns": ["Dealing with challenges", "Overcoming obstacles", "Face difficulties"],
+        "responses": ["Challenges are a part of life. Break problems into manageable steps, seek support, and focus on your resilience. You have the strength to overcome."]
+      },
+      {
+        "tag": "creativity_boost",
+        "patterns": ["Boost creativity", "Creative thinking tips", "Inspire my creativity"],
+        "responses": ["Explore new perspectives, take breaks to refresh your mind, and engage in activities that spark your imagination. Creativity is a wonderful outlet."]
+      },
+      {
+        "tag": "confidence_building",
+        "patterns": ["Build self-confidence", "Boost self-esteem", "Confidence tips"],
+        "responses": ["Believe in your abilities and accomplishments. Celebrate small victories, set realistic goals, and challenge negative thoughts to build lasting confidence."]
+      },
+      {
+        "tag": "relationship_advice",
+        "patterns": ["Relationship tips", "Building healthy relationships", "Improve communication"],
+        "responses": ["Communication is key. Listen actively, express your feelings, and be understanding. Healthy relationships require effort and open dialogue."]
+      },
+      {
+        "tag": "financial_wellness",
+        "patterns": ["Financial wellness tips", "Budgeting advice", "Manage finances"],
+        "responses": ["Create a budget, save regularly, and set financial goals. Seeking professional advice can help you make informed decisions about your financial well-being."]
+      },
+      {
+        "tag": "healthy_lifestyle",
+        "patterns": ["Maintain a healthy lifestyle", "Wellness tips", "Healthy living"],
+        "responses": ["Prioritize sleep, eat balanced meals, stay physically active, and practice mindfulness. A healthy lifestyle contributes to overall well-being."]
+      },
+      {
+        "tag": "academic_success",
+        "patterns": ["Study tips", "Effective learning strategies", "Achieve academic goals"],
+        "responses": ["Organize your study environment, set clear goals, and use varied study techniques. Seek support when needed, and remember that learning is a continuous process."]
+      },
+      {
+        "tag": "travel_tips",
+        "patterns": ["Travel advice", "Solo travel tips", "Plan a trip"],
+        "responses": ["Research destinations, plan ahead, and embrace new experiences. Traveling allows you to explore different cultures and broaden your perspective."]
+      },
+      {
+        "tag": "work_life_balance",
+        "patterns": ["Maintain work-life balance", "Balancing work and personal life", "Work-life harmony"],
+        "responses": ["Set boundaries, prioritize self-care, and schedule leisure activities. Achieving a balance between work and personal life is crucial for overall happiness."]
+      },
+      {
+        "tag": "mindful_eating",
+        "patterns": ["Practice mindful eating", "Healthy eating habits", "Conscious nutrition"],
+        "responses": ["Savor each bite, eat without distractions, and listen to your body's hunger and fullness cues. Mindful eating promotes a healthy relationship with food."]
+      },
+      {
+        "tag": "parenting_tips",
+        "patterns": ["Parenting advice", "Effective parenting strategies", "Parenting challenges"],
+        "responses": ["Communicate with your child, set clear expectations, and foster a supportive environment. Parenting is a learning journey with its joys and challenges."]
+      },
+      {
+        "tag": "goal_reflection",
+        "patterns": ["Reflect on goals", "Assess progress", "Goal review"],
+        "responses": ["Regularly assess your goals, celebrate achievements, and adjust strategies when needed. Reflecting on your progress is an important part of the journey."]
+      },
+      {
+        "tag": "stress_reduction",
+        "patterns": ["Reduce stress levels", "Stress management techniques", "Relaxation methods"],
+        "responses": ["Practice deep breathing, engage in hobbies, and take breaks. Stress reduction techniques can enhance your well-being and resilience."]
+      },
+      {
+        "tag": "digital_detox",
+        "patterns": ["Digital detox tips", "Unplug from technology", "Reduce screen time"],
+        "responses": ["Take breaks from screens, set technology boundaries, and engage in offline activities. A digital detox can contribute to mental and physical well-being."]
+      },
+      {
+        "tag": "confidence_in_public",
+        "patterns": ["Build confidence in public speaking", "Overcome public speaking fear", "Effective presentation"],
+        "responses": ["Prepare thoroughly, practice regularly, and focus on your message. Building confidence in public speaking takes time and practice."]
+      },
+      {
+        "tag": "resilience_building",
+        "patterns": ["Build resilience", "Develop emotional resilience", "Resilience strategies"],
+        "responses": ["Embrace challenges as opportunities for growth, maintain a positive outlook, and seek support when needed. Building resilience helps you navigate life's ups and downs."]
+      },
+      {
+        "tag": "artistic_expression",
+        "patterns": ["Expressing creativity through art", "Artistic outlets", "Creative expression"],
+        "responses": ["Explore different forms of artistic expression, whether it's drawing, writing, or music. Art can be a powerful outlet for emotions and self-discovery."]
+      },
+      {
+        "tag": "positive_self_talk",
+        "patterns": ["Practice positive self-talk", "Positive affirmations", "Self-encouragement"],
+        "responses": ["Challenge negative thoughts, replace them with positive affirmations, and be kind to yourself. Positive self-talk contributes to a healthier mindset."]
+      },
+      {
+        "tag": "mindful_technology_use",
+        "patterns": ["Mindful use of technology", "Digital mindfulness", "Technology balance"],
+        "responses": ["Set boundaries for screen time, practice digital detox, and be intentional with technology use. Mindful technology use promotes a healthier relationship with devices."]
+      },
+      {
+        "tag": "goal_setting_for_teams",
+        "patterns": ["Team goal setting", "Effective team objectives", "Collaborative goals"],
+        "responses": ["Align team goals with overall objectives, communicate effectively, and recognize team achievements. Collaborative goal-setting enhances team performance."]
+      },
+      {
+        "tag": "learning_from_failure",
+        "patterns": ["Learning from failure", "Overcoming setbacks", "Turning failures into lessons"],
+        "responses": ["View failures as opportunities to learn, analyze what went wrong, and adjust your approach. Every setback is a chance for growth."]
+      },
+      {
+        "tag": "grit_and_determination",
+        "patterns": ["Developing grit", "Building determination", "Perseverance mindset"],
+        "responses": ["Cultivate a mindset of perseverance, set long-term goals, and stay committed despite challenges. Grit and determination contribute to long-term success."]
+      },
+      {
+        "tag": "social_media_wellness",
+        "patterns": ["Healthy social media use", "Balanced social media habits", "Mindful online presence"],
+        "responses": ["Set limits on social media usage, curate a positive online environment, and be mindful of the impact of social media on mental well-being."]
+      },
+      {
+        "tag": "effective_communication",
+        "patterns": ["Effective communication skills", "Improving communication", "Clear communication"],
+        "responses": ["Listen actively, be clear in your message, and consider the perspectives of others. Effective communication is crucial in personal and professional relationships."]
+      },
+      {
+        "tag": "reflection_and_gratitude",
+        "patterns": ["Reflect and express gratitude", "Daily reflection practice", "Grateful mindset"],
+        "responses": ["Take time for daily reflection, express gratitude for positive moments, and focus on the present. Cultivating a grateful mindset contributes to overall well-being."]
+      }, 
+      {
+        "tag": "drug_education",
+        "patterns": ["What are the effects of drugs?", "Drug information", "Substance abuse facts"],
+        "responses": ["Drug abuse can have serious health consequences. If you or someone you know is struggling with substance abuse, consider seeking help from a healthcare professional or a support helpline."]
+      },
+      {
+        "tag": "help_for_addiction",
+        "patterns": ["How to overcome drug addiction?", "Getting help for substance abuse", "Addiction recovery"],
+        "responses": ["Overcoming addiction often requires professional help. Reach out to addiction treatment centers, support groups, or consult with a healthcare professional for guidance."]
+      },
+      {
+        "tag": "substance_abuse_warning",
+        "patterns": ["Warning signs of substance abuse", "Recognizing drug abuse", "Substance misuse indicators"],
+        "responses": ["Signs of substance abuse may include changes in behavior, physical health issues, and withdrawal from social activities. If you notice these signs, encourage seeking help."]
+      },
+      {
+        "tag": "anti_drug_campaign",
+        "patterns": ["Support anti-drug campaigns", "How to raise awareness about drug abuse?", "Preventing substance abuse"],
+        "responses": ["Raising awareness about drug abuse is crucial. Support anti-drug campaigns, engage in community initiatives, and promote education about the risks of substance abuse."]
+      },
+      {
+        "tag": "domestic_abuse_support",
+        "patterns": ["Help for domestic abuse victims", "Domestic violence resources", "Escape an abusive relationship"],
+        "responses": ["If you or someone you know is experiencing domestic abuse, prioritize safety. Reach out to local domestic violence hotlines, shelters, or law enforcement for assistance."]
+      },
+      {
+        "tag": "bullying_prevention",
+        "patterns": ["How to prevent bullying?", "Anti-bullying strategies", "Bullying prevention tips"],
+        "responses": ["Bullying prevention starts with education and awareness. Encourage open conversations, promote kindness, and support anti-bullying initiatives in schools and communities."]
+      },
+      {
+        "tag": "helping_bullied_individuals",
+        "patterns": ["Support for bullied individuals", "How to help someone being bullied?", "Anti-bullying resources"],
+        "responses": ["If you know someone being bullied, offer your support, and encourage them to seek help from trusted adults, teachers, or counselors. Bullying should never be tolerated."]
+      },
+      {
+        "tag": "online_safety",
+        "patterns": ["Online safety tips", "Preventing cyberbullying", "Internet safety for kids"],
+        "responses": ["Promote online safety by educating about the risks of cyberbullying. Encourage responsible internet use and maintaining open communication with children and teens."]
+      },
+      {
+        "tag": "substance_abuse_prevention",
+        "patterns": ["Preventing substance abuse", "Substance misuse prevention", "Avoiding drug addiction"],
+        "responses": ["Preventing substance abuse involves education, early intervention, and fostering a supportive environment. Encourage healthy coping mechanisms and open conversations about drug use."]
+      },
+      {
+        "tag": "intervention_for_abuse",
+        "patterns": ["Intervening in cases of abuse", "How to help an abuse victim?", "Reporting abuse"],
+        "responses": ["If you suspect abuse, take it seriously. Report concerns to the appropriate authorities, support the victim, and encourage them to seek professional help."]
+      },
+      {
+        "tag": "drug_recovery_journey",
+        "patterns": ["Recovery journey from drug addiction", "Life after substance abuse", "Overcoming addiction stories"],
+        "responses": ["Recovery from drug addiction is a challenging but achievable journey. Support groups, therapy, and a strong support system can contribute to a successful recovery."]
+      },
+      {
+        "tag": "anti_bullying_organizations",
+        "patterns": ["Supporting anti-bullying organizations", "Donate to anti-bullying causes", "Volunteer for bullying prevention"],
+        "responses": ["Support organizations working towards anti-bullying initiatives. Donations, volunteering, and advocacy can contribute to creating safer environments for everyone."]
+      },
+      {
+        "tag": "school_bullying_policy",
+        "patterns": ["School policies on bullying", "How to enforce anti-bullying policies?", "School bullying prevention"],
+        "responses": ["Promote and enforce school policies on bullying. Collaboration between educators, parents, and students is essential for creating a positive and safe school environment."]
+      },
+      {
+        "tag": "recognizing_abuse",
+        "patterns": ["Recognizing signs of abuse", "Identifying abusive behavior", "Abuse awareness"],
+        "responses": ["Educate yourself and others on recognizing signs of abuse, whether physical, emotional, or verbal. Early intervention is crucial for stopping the cycle of abuse."]
+      },
+      {
+        "tag": "abuse_prevention_education",
+        "patterns": ["Education on abuse prevention", "Teaching about healthy relationships", "Preventing abusive behavior"],
+        "responses": ["Incorporate abuse prevention education in schools and communities. Promote healthy relationships, communication skills, and the importance of consent."]
+      },
+      {
+        "tag": "parental_guidance_on_bullying",
+        "patterns": ["Guidance for parents on bullying", "Helping children deal with bullies", "Parental advice on bullying"],
+        "responses": ["Provide guidance for parents on addressing bullying with their children. Encourage open communication, teach empathy, and advocate for a safe school environment."]
+      },
+      {
+        "tag": "healing_from_trauma",
+        "patterns": ["Healing from abuse trauma", "Trauma recovery", "Coping after abuse"],
+        "responses": ["Recovering from abuse trauma is a process that may require professional help. Encourage seeking therapy, support groups, and healthy coping mechanisms."]
+      },
+      {
+        "tag": "drug_free_communities",
+        "patterns": ["Building drug-free communities", "Community initiatives against substance abuse", "Drug-free programs"],
+        "responses": ["Collaborate with community leaders to create drug-free initiatives. Community engagement, education, and support can contribute to a healthier environment."]
+      },
+      {
+        "tag": "bullying_effects_on_mental_health",
+        "patterns": ["Effects of bullying on mental health", "Bullying's impact on well-being", "Mental health consequences of bullying"],
+        "responses": ["Bullying can have severe effects on mental health. Encourage seeking professional help and support systems to cope with the emotional impact."]
+      },
+      {
+        "tag": "community_support_for_abuse_victims",
+        "patterns": ["Community support for abuse victims", "Resources for abuse survivors", "Help for abuse victims"],
+        "responses": ["Foster community support for abuse victims. Share information about local resources, hotlines, and support groups to help survivors rebuild their lives."]
+      },
+      {
+        "tag": "reporting_drug_activity",
+        "patterns": ["Reporting suspicious drug activity", "How to report drug abuse?", "Community action against drugs"],
+        "responses": ["If you observe suspicious drug activity, report it to local authorities. Community vigilance can contribute to preventing drug abuse."]
+      },
+      {
+        "tag": "preventing_peer_pressure",
+        "patterns": ["Preventing peer pressure", "Resisting influence to use drugs", "Peer pressure resistance"],
+        "responses": ["Educate about the dangers of peer pressure related to drug use. Encourage assertiveness and communication skills to resist negative influences."]
+      },
+      {
+        "tag": "drug_awareness_programs",
+        "patterns": ["Supporting drug awareness programs", "Participate in drug education initiatives", "Community involvement"],
+        "responses": ["Support and participate in drug awareness programs. Community involvement is key to educating individuals about the risks of drug abuse."]
+      },
+      {
+        "tag": "bullying_prevention_in_schools",
+        "patterns": ["Bullying prevention in schools", "Anti-bullying education", "Creating a safe school environment"],
+        "responses": ["Implement comprehensive bullying prevention programs in schools. Empower students, educate staff, and create a culture of respect and inclusion."]
+      },
+      {
+        "tag": "teen_drug_prevention",
+        "patterns": ["Teen drug prevention", "Preventing drug use in teens", "Teenagers and substance abuse"],
+        "responses": ["Teen drug prevention involves open communication, education, and building a supportive environment. Encourage parents and schools to address the unique challenges faced by teenagers."]
+      },
+      {
+        "tag": "empowering_bystanders",
+        "patterns": ["Empowering bystanders against bullying", "How to intervene in bullying situations?", "Support for bystanders"],
+        "responses": ["Empower bystanders to intervene and support the victim. Training on effective intervention and promoting a culture of empathy can reduce the impact of bullying."]
+      },
+      {
+        "tag": "recovery_after_abuse",
+        "patterns": ["Rebuilding life after abuse", "Life after leaving an abusive relationship", "Survivor stories"],
+        "responses": ["Rebuilding life after abuse is a courageous journey. Encourage survivors to seek therapy, connect with support groups, and focus on personal growth."]
+      },
+      {
+        "tag": "safe_havens_for_abuse_victims",
+        "patterns": ["Safe havens for abuse victims", "Shelters for survivors", "Emergency support for abuse victims"],
+        "responses": ["Promote awareness of safe havens for abuse victims, such as shelters and support services. Provide information on accessing emergency support."]
+      },
+      {
+        "tag": "peer_support_for_recovery",
+        "patterns": ["Peer support for addiction recovery", "Connecting with others in recovery", "Community for recovering individuals"],
+        "responses": ["Peer support is valuable in addiction recovery. Encourage connecting with others who share similar experiences for mutual support and understanding."]
+      },
+      {
+        "tag": "building_resilience_against_bullying",
+        "patterns": ["Building resilience against bullying", "Resilience training for students", "Empowering youth"],
+        "responses": ["Foster resilience in students to withstand bullying. Implement resilience training programs and empower youth to navigate challenges with strength and courage."]
+      },
+      {
+        "tag": "encouraging_report_abuse",
+        "patterns": ["Encouraging reporting of abuse", "How to report abuse anonymously?", "Promoting a safe reporting environment"],
+        "responses": ["Create a safe reporting environment for abuse. Encourage reporting through anonymous channels and assure individuals that their safety is a top priority."]
+      },
+      {
+        "tag": "family_support_in_recovery",
+        "patterns": ["Family support in addiction recovery", "How families can help during recovery", "Supporting a loved one in recovery"],
+        "responses": ["Family support is crucial in addiction recovery. Educate families on how to provide encouragement, understanding, and a stable environment during the recovery process."]
+      }
+    ]
+  }
+  
